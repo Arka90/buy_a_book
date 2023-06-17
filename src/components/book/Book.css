@@ -1,0 +1,34 @@
+.book {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  align-items: center;
+  text-align: center;
+}
+
+.book:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.book__img img {
+  width: 20rem;
+}
+
+.book__name,
+.book__price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  padding: 4px;
+}
+
+.btn-logo {
+  font-size: 1.8rem;
+}

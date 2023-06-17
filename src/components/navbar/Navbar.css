@@ -3,16 +3,16 @@
   padding: 2.8rem;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+
   background-color: #eee;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.121);
 }
 
-.navbar__logo-text {
+.navbar__logo-text:link,
+.navbar__logo-text:visited {
   font-size: 2.5rem;
+  text-decoration: none;
+  color: #333;
 }
 
 .navbar__links {
@@ -20,6 +20,7 @@
   width: 25%;
   justify-content: space-between;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .navbar__links a:link,
@@ -30,33 +31,16 @@
   transition: all 0.5s;
 }
 
-.cart {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px solid #333;
-  padding: 3px;
-  width: 15rem;
-  position: relative;
-}
-
-.total-price {
-  font-size: 2.5rem;
-}
-
-.cart-logo {
-  font-size: 2.5rem;
-}
-
 .total-items {
   position: absolute;
-  left: 2.1rem;
-  bottom: 48%;
+  left: 2.4rem;
+  bottom: 55%;
   background-color: red;
   color: #fff;
   border-radius: 5rem;
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;

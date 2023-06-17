@@ -1,20 +1,19 @@
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import Cart from "../cart/Cart";
 import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <p className="navbar__logo-text">📕📚 BuyABook</p>
+        <Link to="/" className="navbar__logo-text">
+          📕📚 BuyABook
+        </Link>
       </div>
       <div className="navbar__links">
-        <a href="www">All Books</a>
-        <a href="www">LogIn</a>
-        <div className="cart">
-          <AiOutlineShoppingCart className="cart-logo" />
-          <div className="total-price">Rs. 500</div>
-          <div className="total-items">5</div>
-        </div>
+        <Link to="all_books">All Books</Link>
+        <Link to="/auth">LogIn</Link>
+        <Cart />
       </div>
     </nav>
   );
