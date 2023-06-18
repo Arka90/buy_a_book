@@ -1,5 +1,5 @@
 import "./Checkout.css";
-
+import CartItem from "../cart-item/Cart-item";
 import {
   selectCartItems,
   selectCartTotal,
@@ -9,6 +9,9 @@ import { useSelector } from "react-redux";
 function Checkout() {
   const cartItems = useSelector(selectCartItems);
   const cartTotal = useSelector(selectCartTotal);
+
+  function handelCheckout() {}
+
   return (
     <div className="checkout-container">
       <div className="checkout-header">
@@ -29,10 +32,13 @@ function Checkout() {
         </div>
       </div>
       {cartItems.map((cartItem) => (
-        // <CartItem key={cartItem.id} cartItem={cartItem} />
-        <h1>{cartItem.name}</h1>
+        <CartItem key={cartItem.id} cartItem={cartItem} />
       ))}
       <span className="total">Total: Rs{cartTotal}</span>
+
+      <button onClick={handelCheckout} className="btn-checkout">
+        Checkout
+      </button>
     </div>
   );
 }

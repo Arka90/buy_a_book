@@ -57,3 +57,9 @@
   background-image: linear-gradient(#20bf55, #188c3e),
     url("https://adamfayed.com/wp-content/uploads/2018/05/a1.png");
 }
+
+@media screen and (max-width: 960px) {
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -45,3 +45,39 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Media quireies */
+@media screen and (max-width: 1348px) {
+  .navbar__links {
+    display: flex;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .navbar__links {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar__logo-text:link,
+  .navbar__logo-text:visited {
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  .navbar__links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .navbar__links {
+    width: 90%;
+  }
+}
