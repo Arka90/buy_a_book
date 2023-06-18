@@ -1,0 +1,44 @@
+.auth__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 10rem auto;
+}
+
+.auth-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.auth__form input {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.auth__form:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.auth-button {
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #eee;
+  background-color: #333;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.8s;
+}
+
+.auth-button:hover {
+  color: #333;
+  background-color: transparent;
+  border: 3px solid #333;
+}

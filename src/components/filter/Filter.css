@@ -1,0 +1,35 @@
+.search__filter {
+  display: flex;
+  width: 25%;
+  margin: 5rem auto;
+}
+
+.search__filter select,
+.search__filter input {
+  background-color: transparent;
+  border: 0;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 15rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+.search-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-btn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 15rem;
+  border: 0;
+  margin-left: 8px;
+  background-color: #fc5f5f;
+  color: #fff;
+}
+
+.search-icon {
+  font-size: 3rem;
+}

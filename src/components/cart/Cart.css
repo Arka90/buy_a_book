@@ -1,7 +1,7 @@
 .cart {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   border: 2px solid #333;
   padding: 1rem;
   width: 13rem;
@@ -16,4 +16,8 @@
 .total-price,
 .cart-logo {
   font-size: 2.2rem;
+}
+
+.cart-logo {
+  margin-right: 1rem;
 }

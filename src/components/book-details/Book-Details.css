@@ -1,0 +1,66 @@
+.book-details-container {
+  width: 60%;
+  margin: 10rem auto;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.book-actions {
+  margin-left: 5rem;
+}
+
+.book-title {
+  width: 70%;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.book-img img {
+  width: 30rem;
+}
+
+.oncart {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlls {
+  font-size: 4rem;
+}
+
+.inc_dec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.description-container {
+  margin-top: 3rem;
+}
+
+.book-btn button {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  border-radius: 3rem;
+}
+
+.btn-buy-now {
+  background-color: #fc5f5f;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn-buy-now:hover {
+  background-color: #eb4d4d;
+}

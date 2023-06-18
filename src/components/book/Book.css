@@ -1,9 +1,15 @@
 .book {
   display: flex;
   flex-direction: column;
-  width: 20rem;
-  align-items: center;
+  width: 22rem;
   text-align: center;
+  transition: all 0.4s;
+  padding: 3px 8px;
+}
+
+.book:hover {
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.08) translateY(1rem);
 }
 
 .book:not(:last-child) {
@@ -31,4 +37,13 @@
 
 .btn-logo {
   font-size: 1.8rem;
+}
+
+.btn-gotocart {
+  width: 100%;
+  background-color: #ddd;
+  color: #333;
+  font-size: 1.8rem;
+  border: none;
+  padding: 4px;
 }
