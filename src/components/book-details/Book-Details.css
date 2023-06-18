@@ -64,3 +64,22 @@
 .btn-buy-now:hover {
   background-color: #eb4d4d;
 }
+
+@media screen and (max-width: 950px) {
+  .book-details-container {
+    width: 80%;
+  }
+
+  .book-img img {
+    width: 20rem;
+  }
+  .action-container {
+    flex-direction: column;
+    margin-bottom: 6rem;
+    text-align: center;
+  }
+
+  .book-title {
+    width: 100%;
+  }
+}
